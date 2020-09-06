@@ -63,7 +63,7 @@
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -313,12 +313,12 @@
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
+			.icon.circle.fa-linkedin {
 				background: #70aecd;
 				color: white;
 			}
 
-				.icon.circle.fa-twitter:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #7fb7d2;
 				}
 
@@ -331,14 +331,36 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
-				background: #db6b67;
+			.icon.circle.fa-wechat {
+				background: #86bd87;
 				color: white;
 			}
 
-				.icon.circle.fa-google-plus:hover {
-					background: #df7b77;
+				.icon.circle.fa-wechat > .tooltip {
+					visibility: hidden;
+					width: 12em;
+					background-color: rgb(61, 57, 57, 0.75);
+					color: #fff;
+					text-align: center;
+					border-radius: 6px;
+					padding: 5px 0;
+					line-height: 1.25em;
+					font-size: 0.7em;
+
+					/* Position the tooltip */
+					position: absolute;
+					bottom: 125%;
+					left: -150%;
+					z-index: 1;
 				}
+
+				.icon.circle.fa-wechat:hover {
+					background: #86bd87;
+				}
+
+				.icon.circle.fa-wechat:hover .tooltip {
+					visibility: visible;
+				  }
 
 			.icon.circle.fa-github {
 				background: #dcad8b;
@@ -349,12 +371,12 @@
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-instagram {
 				background: #da83ae;
 				color: white;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #df93b8;
 				}
 
@@ -804,7 +826,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/bg-fch.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -831,6 +853,7 @@
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			max-width: 30em;
 		}
 
 			#banner .inner header {
@@ -846,17 +869,17 @@
 					border-top: solid 2px;
 					font-size: 2.5em;
 					font-weight: 900;
-					letter-spacing: 0.2em;
+					/* letter-spacing: 0.2em; */
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					/* text-transform: uppercase; */
 				}
 
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 			}
 
 				#banner .inner p a {
@@ -904,7 +927,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/bg-dandelion.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
