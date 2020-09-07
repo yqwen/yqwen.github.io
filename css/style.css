@@ -615,6 +615,18 @@
 				background-color: #e877af;
 			}
 
+			.wrapper.style1 .icon.fa-seedling {
+				background-color: #86bd87;
+			}
+
+			.wrapper.style1 .icon.fa-paw {
+				background-color: #ec6868;
+			}
+
+			.wrapper.style1 .icon.fa-utensils {
+				background-color: #5ec4d4;
+			}
+
 		.wrapper.style2 {
 			background-color: #83d3c9;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
