@@ -63,7 +63,7 @@
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		/* text-transform: uppercase; */
+		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -389,8 +389,8 @@
 		}
 
 			.icon.featured:before {
-				font-size: 5em;
-				line-height: 1em;
+				font-size: 4em;
+				/* line-height: 1em; */
 			}
 
 		.icon > .label {
@@ -590,8 +590,30 @@
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			background-color: white;
+			padding: 4em;
 		}
+
+			.wrapper.style1 .icon {
+				color: white;
+				border-radius: 50%;
+				height: 8em;
+				width: 8em;
+				margin: 0 auto 2em auto;
+				line-height: 8em;
+			}
+
+			.wrapper.style1 .icon.fa-music {
+				background-color: #ec8d2b;
+			}
+
+			.wrapper.style1 .icon.fa-globe {
+				background-color: #42ace6;
+			}
+
+			.wrapper.style1 .icon.fa-child {
+				background-color: #e877af;
+			}
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
