@@ -337,6 +337,32 @@
 				top: -0.2em;
 			}
 
+			.icon.circle.with-tooltip > .tooltip {
+				visibility: hidden;
+				width: 12em;
+				background-color: rgb(61, 57, 57, 0.75);
+				color: #fff;
+				text-align: center;
+				border-radius: 6px;
+				padding: 5px 0;
+				line-height: 1.25em;
+				font-size: 0.7em;
+
+				/* Position the tooltip */
+				position: absolute;
+				bottom: 125%;
+				left: -150%;
+				z-index: 1;
+			}
+
+				.icon.circle.with-tooltip > .tooltip.long {
+					width: 15em;
+				}
+
+			.icon.circle.with-tooltip:hover .tooltip {
+				visibility: visible;
+			}
+
 			.icon.circle.fa-linkedin {
 				background: #70aecd;
 				color: white;
@@ -360,39 +386,17 @@
 				color: white;
 			}
 
-				.icon.circle.fa-wechat > .tooltip {
-					visibility: hidden;
-					width: 12em;
-					background-color: rgb(61, 57, 57, 0.75);
-					color: #fff;
-					text-align: center;
-					border-radius: 6px;
-					padding: 5px 0;
-					line-height: 1.25em;
-					font-size: 0.7em;
-
-					/* Position the tooltip */
-					position: absolute;
-					bottom: 125%;
-					left: -150%;
-					z-index: 1;
-				}
-
 				.icon.circle.fa-wechat:hover {
 					background: #86bd87;
 				}
 
-				.icon.circle.fa-wechat:hover .tooltip {
-					visibility: visible;
-				  }
-
 			.icon.circle.fa-github {
-				background: #dcad8b;
+				background: #7c8081;
 				color: white;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #929596;
 				}
 
 			.icon.circle.fa-instagram {
@@ -402,6 +406,15 @@
 
 				.icon.circle.fa-instagram:hover {
 					background: #df93b8;
+				}
+
+			.icon.circle.fa-envelope {
+				background: #dcad8b;
+				color: white;
+			}
+
+				.icon.circle.fa-envelope:hover {
+					background: #e1b89b;
 				}
 
 		.icon.featured {
