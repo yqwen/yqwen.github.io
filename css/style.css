@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
 	Twenty by HTML5 UP
@@ -240,6 +240,18 @@
 	}
 
 /* Image */
+
+	#website-logo {
+		height: 2em;
+		width: 2em;
+		margin-top: -0.2em;
+	}
+	
+	#header h1 span#website-title {
+		font-weight: 900;
+		vertical-align: 30%;
+		padding-left: 0.5em;
+	}
 
 	.image {
 		border: 0;
@@ -483,6 +495,10 @@
 				padding: 0;
 			}
 
+			ul.buttons.center {
+				text-align: center;
+			}
+
 		ul.buttons.vertical li {
 			display: block;
 			padding: 1.5em 0 0 0;
@@ -628,7 +644,7 @@
 			}
 
 			.wrapper.style1 .icon.fa-child {
-				background-color: #e877af;
+				background-color: #9d77e8;
 			}
 
 			.wrapper.style1 .icon.fa-seedling {
@@ -641,6 +657,10 @@
 
 			.wrapper.style1 .icon.fa-utensils {
 				background-color: #5ec4d4;
+			}
+
+			.wrapper.style1 .icon.fa-heart {
+				background-color: #e877af;
 			}
 
 		.wrapper.style2 {
@@ -706,6 +726,10 @@
 
 			#header h1 span {
 				font-weight: 300;
+			}
+
+			#header h1#logo {
+				height: 1.75em;
 			}
 
 		#header nav {
@@ -980,7 +1004,7 @@
 		padding: 1em;
 	}
 
-		section.card:hover {
+		section.card.clickable:hover {
 			cursor: pointer;
 			background: rgba(188, 202, 206, 0.15);
 		}
