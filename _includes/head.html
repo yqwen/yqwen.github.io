@@ -30,4 +30,9 @@
 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!--Google Analytics-->
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
