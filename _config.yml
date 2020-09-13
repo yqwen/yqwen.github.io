@@ -12,7 +12,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 # Google Analytics
 google_analytics: UA-177679691-1
